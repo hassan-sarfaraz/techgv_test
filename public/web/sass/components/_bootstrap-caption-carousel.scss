@@ -1,0 +1,147 @@
+// ................bootstrap_caption_carousel
+
+@font-face {
+font-family: 'Allura-Regular';
+    src: url('../fonts/Allura-Regular.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/Allura-Regular.woff') format('woff'), 
+    url('../fonts/Allura-Regular.ttf')  format('truetype'), 
+    url('../fonts/Allura-Regular.svg#Allura-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+
+.carousel-caption.caption2{
+    left:auto;
+
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    right: 12%;
+
+    .text-deco1{
+        width: 411px;
+        float: right;
+        h2{
+            font-size: 11rem;
+            position: absolute;
+            line-height: 93px;
+            margin: 0;
+            opacity: 0.4;
+        }
+            h1{
+                color:black;
+                font-family: 'Allura-Regular';
+                font-size: 7rem;
+                line-height: 85px;
+                text-align: center;
+                position: relative;
+                z-index: 99999;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+            }
+
+        
+        p{
+            font-size: 40px;
+            font-family: none;
+            position: relative;
+            text-align: center;
+            margin: 0;
+            line-height: 0;
+            color: black;
+        }
+        .btn{
+            position: relative;
+            bottom: -25px;
+        }
+    }
+
+    // ...caption-two....
+   
+    .text-deco2{
+        width: 411px;
+        text-align: center;
+        h2{
+            font-size: 11rem;
+            position: absolute;
+            line-height: 93px;
+            margin: 0;
+            opacity: 0.4;
+        }
+            h1{
+                color:black;
+                font-family: serif;
+                font-size: 5rem;
+                line-height: 85px;
+                text-align: center;
+             
+                z-index: 99999;
+              
+                margin: 0;
+                span{
+                    color: red;
+                }
+            }
+
+        
+        p{
+            font-size: 25px;
+            font-family: none;
+          
+            text-align: center;
+            margin: 0;
+            line-height: 0;
+            color: black;
+        }
+        .btn{
+            position: relative;
+            bottom: -25px;
+        }
+    }
+
+   // ...caption-three....
+    .text-deco3{
+        width: 411px;
+        text-align: center;
+        h2{
+            font-size: 11rem;
+            position: absolute;
+            line-height: 93px;
+            margin: 0;
+            opacity: 0.4;
+        }
+            h1{
+                color:black;
+                font-family: serif;
+                font-size: 40px;
+                line-height: 85px;
+                text-align: center;
+             
+                z-index: 99999;
+              
+                margin: 0;
+                span{
+                    color: red;
+                }
+            }
+
+        
+        p{
+            font-size: 25px;
+            font-family: none;
+          
+            text-align: center;
+            margin: 0;
+            line-height: 0;
+            color: black;
+        }
+        
+    }
+    
+      
+    }

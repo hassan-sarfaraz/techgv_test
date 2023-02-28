@@ -1,0 +1,102 @@
+.footer {
+    width: 100%;
+    background: #47c257;
+    display: flex;
+    align-items: center;
+    margin-top: -77px;
+    margin-bottom: 31px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 5px #f5f5f5;
+}
+.footer .field.newsletter {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+}
+.block-subscribe-title{
+    padding: 20px;
+}
+.block-subscribe-title h3{
+    font-weight: bolder;
+    margin: 0;
+    color: #212529;
+}
+.form-subscribe-header{
+    margin-top: 1px;
+    color: #212529;
+}
+.block.newsletter .form.subscribe{
+    display: flex!important;
+    justify-content: flex-end;
+    width: 100%;
+}
+button.action.subscribe.primary {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 100px;
+}
+.control label[for="newsletter"] input{
+    height: 45px;
+    width: 330px;
+    margin: 0;
+    font-size: 15px;
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    padding: 10px 16px;
+    box-shadow: none;
+    border: 0;
+}
+.page-footer .radio-container {
+    min-height: 51px;
+    height: 51px;
+}
+.radio-container{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 4px;
+}
+.radio-container span input[type="radio"]{
+    height: 16px;
+    width: 20px;
+}
+.radio-container span {
+    margin-right: 10px;
+}
+.control{
+    background: #efefef;
+    font-size: 14px;
+    font-weight: normal;
+    width: 97%;
+    color: #000;
+    border: 1px solid #2d7a37;
+    line-height: 25px;
+}
+.control label{
+    margin: 0px!important;
+}
+.footer .newsletter .content form .control label{
+    font-size: 40px;
+}
+.radio-container span label {
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+
+.control button{
+    padding: 10px 12px;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 0px;
+    background: #000000;
+    color: #f4f4f6;
+    border: 0;
+}
+.control button:focus {
+    border: 0;
+    outline: none;
+}

@@ -1,0 +1,52 @@
+.banners-content{
+    padding-top: 30px;
+}
+.group-banners{
+    // margin-bottom: 30px;
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 30px;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    
+}
+
+.full-width-banner{
+    margin-bottom: 30px;
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 0;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+    }
+}
+
+.full-screen-banner{
+    margin-bottom: 30px;
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 0;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+    }
+}

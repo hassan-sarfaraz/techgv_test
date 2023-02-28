@@ -1,0 +1,201 @@
+// ...........footer.............
+
+$bg-footer: #fff;
+$border-color: $gray-600;
+$bg-social: $primary;
+
+.footer-five{
+    padding-top: 45px;
+    background-color:$bg-footer;
+    color: color-yiq($bg-footer);
+
+    .media{
+        padding-bottom: 15px;
+
+        h2{
+            font-size:12px;
+        }
+        .margin-d2{
+            margin-right: 10px;
+        }
+    }
+    .logo {
+        font-family: 'Pasajero';
+        color: color-yiq($bg-footer);
+        font-size: 34px;
+        display: flex;
+        align-items: center;
+        line-height: normal;
+        text-decoration: none;
+        strong {
+            color: $secondary;
+        }
+    }
+    hr {
+        margin-top: 5px;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: $border-width solid $border-color;
+        &:before {
+            height: 1px;
+            background-color: $secondary;
+            content: "";
+            position: absolute;
+            width: 85px;
+            margin-top: -1px;
+        }
+    }
+    h5 {
+        font-size: $font-size-base;
+        text-transform: uppercase;
+        margin: 0;
+        text-transform: uppercase;
+    }  
+    ul{
+        li{
+            a{
+                .fa{
+                    padding-right: 5px;
+                }
+                &:hover{
+                    color: $secondary;
+                }
+            }
+        }
+    }        
+    .contact-list  {
+        li {
+            position: relative;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            font-size: $font-size-base;
+            margin-bottom: 12px;
+            padding-left: 30px;
+
+            .fas {
+                position: absolute;
+                top: 4px;
+                left: 0;
+                font-size: $font-size-lg;
+                color: $secondary;
+                height: auto;
+                width: auto;
+            }
+            a {
+                color: color-yiq($bg-footer);
+            }
+        }
+    }
+    .links-list{
+        li{
+            list-style-type: none;
+            margin-bottom: 8px;
+            a{
+                display: block;
+                font-size: $font-size-base;
+                color: color-yiq($bg-footer);
+                &:hover {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+    .footer-image{
+        float: right;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }      
+   
+    .payment-mthod{
+        margin-bottom: 30px;
+        .footer-image {
+            .img-fluid{
+                height: 20px;
+            }
+        }
+    }
+
+      // -----------------social
+      .social-content{
+        background-color:$bg-social;
+        color: color-yiq($bg-social);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        .socials {
+            display: block;
+            float: right;
+            .list {
+                display: block;
+                padding-left: 0;
+                margin-bottom: 0;
+                li{
+                    display: inline-block;
+                    a {
+                        background-color: $primary;
+                        color: color-yiq($primary);
+                        font-size: $font-size-lg;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        border-radius: $border-radius;
+                        border: $border-width solid $border-color;
+    
+                        &:hover
+                            {
+                            background-color: $secondary;
+                            color: color-yiq($secondary);
+                            border-color: $secondary;
+                        }
+                    }
+                }
+            }   
+        }
+        .newsletter {
+            .link{
+                padding: 0;
+                list-style: none;
+                display: flex;
+                margin: 0;
+                li{
+                    a{
+                        display: block;
+                        padding: 0px 7px;
+                        border-right: 1px solid;
+                        font-size: 13px;
+                        color: color-yiq($bg-social);
+                        line-height: 11px;
+                        text-decoration: none;
+                    }
+                }
+                li:first-child{
+                    a{
+                        padding-left: 0;
+                    }
+                }
+                li:last-child{
+                    a{
+                    border: none;
+                    }
+                }
+            }
+            .footer-info{
+                margin-top: 8px;
+                a{
+                    color: color-yiq($bg-social);
+                }
+                p{
+                    color: color-yiq($bg-social);
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+        
+    }  
+    
+}
+

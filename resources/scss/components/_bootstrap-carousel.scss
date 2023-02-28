@@ -1,0 +1,25 @@
+//....................carousel section...............
+.carousel-content{
+  margin-bottom: 30px;
+   .carousel-control-prev, .carousel-control-next{
+       top: 50%;
+       background-color: $black;
+   height: 40px;
+   width: 40px;
+   border-radius: 50px;
+   transform: translateY(-50%);
+   }
+   .carousel-control-prev{
+       left: 15px;
+   }
+   .carousel-control-next{
+       right: 15px;
+   }
+
+   .group-banners{
+       .banner-image:nth-child(2) {
+
+           margin-bottom: 0;
+       }
+   }
+}

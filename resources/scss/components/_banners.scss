@@ -1,0 +1,50 @@
+
+.group-banners{
+    // margin-bottom: 30px;
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 30px;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+
+}
+
+.full-width-banner{
+
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 30px;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+    }
+}
+
+.full-screen-banner{
+
+
+    .banner-image{
+        border-radius: $border-radius;
+        overflow: hidden;
+        margin-bottom: 30px;
+        // height: 270px;
+
+        a{
+            display: block;
+        }
+    }
+}

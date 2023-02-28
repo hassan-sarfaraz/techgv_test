@@ -1,0 +1,77 @@
+// ....compare....
+
+.wishlist-content{
+    margin-bottom: 30px;
+    
+ 
+    .h5-heading{
+        margin: 0;
+    }
+    .hr-line{
+        hr {
+            margin-top: 5px;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: $border-width solid $border-color;
+            &:before {
+                height: 1px;
+                background-color: $secondary;
+                content: "";
+                position: absolute;
+                width: 85px;
+                margin-top: -1px;
+            }
+        }  
+    }
+    .media-main{
+        background-color: white;
+        .media{
+            
+            padding: 20px;
+            img{
+                width: 140px;
+                height: 140px;
+                border:$border-width solid #ddd;
+                margin-right: 1rem;
+            }
+        }
+        .media-body{
+            .texting{
+                h6{
+                    span{
+                        color: $danger;
+                    }
+                }
+                .buttons{
+                    display: flex;
+
+                    .input-group{
+                        margin-right: 5px;
+                    }
+                }
+                    
+            }
+            .detail{
+                text-align: end;
+                p{
+                    margin-bottom: 5px;
+                    color:#a1abb6;
+                }
+                .share{
+                    margin-bottom: 5px;
+                    a{
+                    color:#a1abb6;
+                    .fas{
+                        color:#a1abb6;
+                    }
+                    }
+                
+                }
+    
+            }
+        }
+       
+    }
+  
+}
+              

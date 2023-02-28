@@ -1,0 +1,67 @@
+.cart-page-two{
+    .top-table{
+        thead{
+            background-color: $white;
+            tr{
+                th{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+            }
+        }
+        tbody{
+            background-color: $white;
+            border-bottom: 2px solid $gray-400;
+            tr{
+                td{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .item-detail{
+                        
+                        h4{
+                            font-size: 1rem;
+                        }
+                    }
+                    .item-controls{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    } 
+    .bottom-table{
+        thead{
+            th{
+                border-top: none;
+                border-bottom: none;
+            }
+        }
+        tbody{
+            background-color: $white;
+        }
+    } 
+    .right-table{
+        thead{
+            th{
+                border-top: none;
+                border-bottom: none;
+            }
+        }
+        tbody{
+            background-color: $white;
+        }
+    }
+    .item{
+        display: flex;
+        align-items: center;
+    }
+    .item-price{
+        color: $danger;
+    }
+
+    .align-right{
+        text-align: right;
+    }
+}

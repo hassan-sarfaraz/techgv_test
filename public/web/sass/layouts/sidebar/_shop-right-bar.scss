@@ -1,0 +1,182 @@
+// ...shop right bar...
+
+$main-menu-bg: #f2f2f2;
+$main-menu-nav-link : #fcfcfc;
+
+.right-menu{
+    
+    .main-manu {
+        display: block;
+        background-color: $main-menu-bg;
+        color: color-yiq($main-menu-bg);
+        border: 1px solid $gray-300;
+        padding: 5px 10px;
+        text-decoration: none;
+
+        img{
+            width: 16px;
+            margin-right: 7px;
+            margin-bottom: 4px;
+        }
+        .fas{
+            float: right;
+            display: block;
+            color:$gray-300;
+            margin-top: 5px;
+        }
+    }
+    .sub-manu{
+        .unorder-list{
+            padding: 0;
+            margin-bottom: 0;
+            list-style: none;
+
+            .list-item{
+                a{
+                    display: block;
+                    background-color:$main-menu-nav-link;
+                    color: color-yiq($main-menu-nav-link);
+                    border: 1px solid $gray-300;
+                    padding: 5px 10px 5px 25px;
+                    text-decoration: none;
+                    &:hover{
+                        color: $secondary;
+                    }
+                    .fas{
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+.color-range-main{
+    border: $border-width solid $gray-300;
+    padding: 20px 15px;
+    h2{
+        font-size: $font-size-base;
+        margin: 0;
+    }
+    .color-range{
+        ul{
+            list-style: none;
+            margin-bottom: 0;
+            margin-top: 10px;
+            padding-left: 0;
+
+            li{
+                display: inline-block;
+                margin-right: 2px;
+                a{
+                    display: block;
+                    padding: 10px 10px;
+                    
+                }
+                .black{
+                    background-color: #111;
+                }
+                .dark-blue{
+                    background-color: #09057d;
+                }
+                .light-blue{
+                    background-color: #1d18f8;
+                }
+                .choclate{
+                    background-color: #7d0006;
+                }
+
+                .dark-pink{
+                    background-color: #7f057e;
+                }
+                .purple{
+                    background-color: #8017f8;
+                }
+                .red{
+                    background-color: #f90018;
+                }
+                .light-pink{
+                    background-color: #f90080;
+                }
+                .pink{
+                    background-color: #fa13f9;
+                }
+            }
+        
+        }
+    }
+}
+.size-range-main{
+    border: $border-width solid $gray-300;
+    padding: 20px 15px;
+    h2{
+        font-size: $font-size-base;
+        margin: 0;
+    }
+    .size-range{
+        ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            margin-top: 10px;
+            padding: 0;
+            li{
+                a{
+                    padding-top: 3px !important;
+                    margin: 0 2px;
+                    width: 30px;
+                    padding: 0;
+                    height: 30px;
+                }
+                .size-btn{
+                    background-color: #e9ecef;
+                    border-color: darken($color: $gray-300, $amount: 10%);
+                    &:hover{
+                        background-color: $primary;
+                        color: color-yiq($primary);
+                    }
+                }
+            }
+        
+        }
+    }
+}
+.brands-main{
+    border: $border-width solid $gray-300;
+    padding: 20px 15px;
+    h2{
+        font-size: $font-size-base;
+        margin: 0;
+    }
+    .brands{
+        margin-top: 7px;
+        ul{
+            
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                a{
+                    padding-top: 0;
+                    padding-bottom: 0;
+                   .fas{
+                       margin-right: 7px;
+                   }
+                   &:hover{
+                       color:$secondary;
+                   }
+                }
+              
+            }
+        
+        }
+    }
+}
+
+.img-main{
+    border: $border-width solid $gray-300;
+    margin-top: 15px;
+ 
+}
+}

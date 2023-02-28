@@ -1,0 +1,100 @@
+.cart-area{
+    .table{
+        thead{
+            
+            tr {
+                th{
+                    text-transform: uppercase;
+                }
+                th[align="center"]{
+                    text-align: center;
+                }
+            }
+        }
+        
+    }   
+    .item{
+        position: relative;
+        float: left;
+        width: 100%;
+        .item-thumb{
+            float: left;
+            width: 120px;
+            height: 120px;
+            border:1px solid $gray-300;
+            margin-right: 15px;
+        }
+        .item-detail{
+            float: left;
+            
+
+            h4{
+                font-size: $font-size-lg;
+                small{
+                    color: $body-color-secondary;
+                }
+            }
+
+            .item-attributes{
+
+            }
+            .item-controls{
+                position: absolute;
+                bottom: 0;
+                .btn{
+                    font-size: 12px;
+                    border:1px solid $gray-300;
+                    padding: 0 5px;
+                }
+            }
+        }
+        
+    }
+    .item-price{
+        color: $secondary;
+    }
+    .item-price, .item-total{
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+    }
+}
+.cart-page-one{
+    .top-table{
+        thead{
+            background-color: $white;
+            tr{
+                th{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+            }
+        }
+        tbody{
+            background-color: $white;
+            border-bottom: 2px solid $gray-400;
+            tr{
+                td{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .item-detail{
+                        justify-content: flex-start;
+                        h4{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                td.item-detail-left{
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }  
+    .right-table{
+        background-color: $white;
+    }
+    .align-right{
+        text-align: right;
+    }  
+}

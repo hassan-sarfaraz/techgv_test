@@ -1,0 +1,119 @@
+ //....................Modal section...............
+
+ #myModal{
+     .modal-dialog {
+        max-width: 1110px;
+        .modal-header{
+            padding: 1rem 1rem 0 0;
+            border: none;
+        }
+        .modal-body{
+            padding: 1rem;
+        }
+     }
+     .carousel{
+        margin-bottom: 3rem;
+        .carousel-inner{
+            .carousel-item{
+                border: $border-width solid #e1e1e1;
+                background-color: $light;
+                text-align: center;
+                a{
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    font-size: 18px;
+                    color: darken($color: #e1e1e1, $amount: 10%);
+                }
+
+
+            }
+        }
+        .angle{
+            color: $dark;
+        }
+     }
+ }
+
+.modal-content {
+    // width: 968px;
+    // position: absolute;
+    // right: -50%;
+    // margin-top: 85px;
+     a{
+        .angle{
+            font-size: 33px;
+        }
+     }
+
+    h2{
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bolder;
+        span{
+            color:$red;
+        }
+    }
+    .list {
+        display: flex;
+        list-style: none;
+        padding: 2px 0px 0 0;
+        li {
+            float: left;
+            padding-right: 10px;
+            font-size: $font-size-lg;
+            color: $gray-600;
+            border-right: 1px solid #e1e1e1;
+            margin-right: 10px;
+            line-height: 13px;
+        }
+        .instock{
+            color: green;
+            .fas{
+                margin-right: 5px;
+            }
+        }
+        li:last-child{
+            border: none;
+        }
+    }
+    .product-buttons{
+        display: flex;
+
+        padding-bottom: 24px;
+        border-bottom: $border-width solid #e1e1e1;
+
+        .buttons{
+            width: 30%;
+            margin: 0px 30px 0 30px;
+            .btn{
+                font-weight: $font-weight-bolder;
+            }
+        }
+        .icon-liked {
+            .icon {
+                position: relative;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 35px;
+                width: 35px;
+                border: $border-width solid #e1e1e1;
+                border-radius: 0;
+                font-size: $font-size-lg;
+                color: $secondary;
+                text-decoration: none;
+                margin-right: 7px;
+                cursor: pointer;
+            }
+            .badge {
+                font-family: "Roboto", sans-serif;
+                position: absolute;
+                right: -8px;
+                top: -8px;
+                border-radius: $border-radius;
+            }
+        }
+    }
+
+}

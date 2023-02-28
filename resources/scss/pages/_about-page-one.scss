@@ -1,0 +1,58 @@
+// ....compare....
+
+.aboutus-content-one{
+
+    margin-top: 30px;
+    
+    h1{
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+    .peragraph{
+       margin-top: 15px;
+    }
+    .profile-div{
+        background-color: white;
+        margin-bottom: 30px;
+        .media-main{
+            .media{
+              .rounded-circle{
+                margin-right: 15px;
+              }
+                .media-body{
+                    h4{
+                        small{
+                            color: $gray-500;
+                            font-size: 12px;
+                        }
+                    }
+                    p{
+                        color: $gray-600;
+                    }
+                }
+            }
+        }
+    }
+   
+  .media-col{
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    border-right: 0.2px solid $gray-400;
+  }
+  .product{
+      text-align: center;
+      h2{
+        margin: 0;
+        font-size: $font-size-base;
+      }
+      h5{
+        margin: 0;
+        font-size: 12px;
+        color: $gray-500;
+      }
+    article{
+        padding: 0;
+    }
+  }
+}
